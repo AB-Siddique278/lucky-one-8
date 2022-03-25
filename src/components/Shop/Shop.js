@@ -29,6 +29,7 @@ const Shop = () => {
 
     return (
         <div className='shop'>
+
             <div className='products-container'>
                 
                 {
@@ -52,6 +53,9 @@ const Shop = () => {
            cart={cart}
 
             ></Cart>
+
+               
+
             </div>
         </div>
     );

@@ -3,17 +3,25 @@ import './Cart.css';
 
 const Cart = (props) => {
     const {cart} = props;
+    console.log(cart)
     
-    // let itemname
-    // for(const product of cart){
-    //     itemname = product.name;
-    // }
-
+    // var randomItem = product[Math.floor(Math.random()*product.length)];
+    
 
     return (
         <div className='cart'>
                 <h1>Select your Book</h1>
                 <p>Select item Length: {cart.length} </p>
+
+            <div>
+                {
+                    cart.map(item=><h4><li>{item.name} </li></h4>)
+                }
+                
+                
+            </div>
+            
+
                
         </div>
     );
