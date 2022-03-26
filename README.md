@@ -2,7 +2,7 @@
 
 This is Git hub Code link [See this code ](https://github.com/Programming-Hero-Web-Course4/lucky-one-AB-Siddique278).
 
-## Netly fy live project link 
+## Netlify live project link 
 This is a link [click now ](https://subtle-pie-388a75.netlify.app/).
 
 
