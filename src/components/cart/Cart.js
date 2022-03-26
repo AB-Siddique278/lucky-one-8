@@ -3,31 +3,19 @@ import './Cart.css';
 
 const Cart = (props) => {
     const {cart} = props;
-   
-    // var randomItem = product[Math.floor(Math.random()*product.length)];
-  
-    // let btnRandom = document.getElementById('buttonv');
-    // let result = document.getElementById('result');
+    console.log(cart)
 
+    let items =cart;
+    function choiseOne(){
+        return Math.floor(Math.random()* items.length)
+    }
 
-    
-    // function getRandomNumber(min, max) {
-    //     let step1 = max - min + 1;
-    //     let step2 = Math.random() * step1;
-    //     let result = Math.floor(step2) + min;
-    //     return result;
-    // }
-
-    // btnRandom.addEventListener('click', () => {
-    //     let index = getRandomNumber(0, cart.length-1);
-    //     result.innerText = cart[index];
-    // });
-
-
+    const random = choiseOne();
+ 
     return (
         <div className='cart'>
                 <h1>Select your Book</h1>
-                <p>Select item Length: {cart.length} </p>
+                <p>Number of select your Item: {cart.length} </p>
 
             <div>
                 {
@@ -37,12 +25,12 @@ const Cart = (props) => {
                 <div>
 
                    
-                    <button className=" buttonv btn btn-primary">
+                    <button onClick="choiseOne()" className=" buttonv btn btn-primary">
                         Choose For me
                     </button>
 
                     <h1 className='result'>
-                        dfdfd
+                        {random}
                     </h1>
                     <br/>
 

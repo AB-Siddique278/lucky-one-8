@@ -1,10 +1,10 @@
 import React from 'react';
-
+                                    
 const Ans = () => {
     return (
         <div className='container my-3'>
             <div>
-                <div class="border border-primary mb-3 p-3">
+                <div className="border border-primary mb-3 p-3">
                     <h4 >How React Works</h4>
                     <p>
                     React.js is one of the most widely discussed JavaScript web frameworks in recent years. React, like Angular and, more recently, Vue, is a critical tool that has had a significant impact on how we build web applications.
@@ -16,12 +16,12 @@ const Ans = () => {
                     </p>
                 </div>
 
-                <div class="mt-3 border border-primary mb-3 p-3">
+                <div className="mt-3 border border-primary mb-3 p-3">
                     <h4>Difference between Props Vs States</h4>
                     
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h5 class="text-center">Propes</h5>
+                    <div className="row">
+                        <div className="col-sm-6">
+                            <h5 className="text-center">Propes</h5>
 
                              <ul>
                                     <li>Props enable components to be reused by allowing them to receive data from their parent component in the form of props. They are equivalent to function parameters.</li>
@@ -33,8 +33,8 @@ const Ans = () => {
                                     
                             </ul> 
                         </div>
-                        <div class="col-sm-6">
-                            <h5 class="text-center">States</h5>
+                        <div className="col-sm-6">
+                            <h5 className="text-center">States</h5>
 
                             <ul>
                                     <li>State is the component's local state that cannot be accessed or modified outside of the component. It's the same as using local variables in a function.</li>
@@ -52,7 +52,7 @@ const Ans = () => {
                     </div>
                 </div>
 
-                <div class="border border-primary mb-3 p-3">
+                <div className="border border-primary mb-3 p-3">
                     <h4 >How useStates Works</h4>
                     <p>
                     The useState hook allows you to add state to function components.

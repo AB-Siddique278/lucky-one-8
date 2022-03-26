@@ -22,7 +22,7 @@ const Product_info = (props) => {
                 </h5>
                 </div>
                 
-                <div className='mx-auto w-100'>
+                <div className='mx-auto w-100 '>
                     <button onClick={ ()=>props.handleaddtocard(props.product)} className='cart-button btn btn-primary d-flex w-100 justify-content-center'>
                         <p className='button-name'>Add to Cart</p>
                         <p><FontAwesomeIcon icon={faShoppingCart} ></FontAwesomeIcon></p>

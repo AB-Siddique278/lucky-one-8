@@ -8,7 +8,7 @@ const Header = () => {
                 Book selection Healper
             </h1>
             <h3>
-            Choose any four of your books
+            Choose any 4 of your books
             </h3>
         </div>
     );

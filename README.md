@@ -7,8 +7,11 @@ This is a link [click now ](...).
 
 
 
+## How to Build a react website 
+visite tis lik[click](https://reactjs.org/docs/create-a-new-react-app.html). 
 
-
+## Boostrap frework
+visite now [click](https://react-bootstrap.github.io/getting-started/introduction).
 
 In the project directory, you can run:
 
