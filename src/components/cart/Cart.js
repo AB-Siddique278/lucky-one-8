@@ -28,6 +28,9 @@ const Cart = (props) => {
                     <button onClick="choiseOne()" className=" buttonv btn btn-primary">
                         Choose For me
                     </button>
+                    <br/>
+                    <br/>
+                    <h5>your lucky Item number :</h5>
 
                     <h1 className='result'>
                         {random}
